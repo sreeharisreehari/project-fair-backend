@@ -28,10 +28,13 @@ try{
         })
         await newproject.save()
         res.status(200).json(newproject)
+
+        
     }
 
 }catch(err){
     res.status(401).json(`resquest failer due to ${err}`)
+
 }
 
 

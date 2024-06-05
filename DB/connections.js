@@ -11,3 +11,4 @@ mongoose.connect(connectionstring).then((res)=>{
 }).catch((err)=>{
     console.log(`mongodb connection failed due to:${err}`);
 })
+
